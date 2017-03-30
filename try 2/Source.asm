@@ -345,7 +345,7 @@ jnz delayEnd
 mov bp, 10
 dec si
 cmp si, 0
-invoke ExitProcess, 0
+invoke ExitProcess, 0 ;// exit 
 jnz delayEnd
 
 jmp endMovement
